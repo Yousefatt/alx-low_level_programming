@@ -10,12 +10,11 @@
 
 int main(void)
 {
-int k = 0;
+int k;
 char v;
-while (k <= 10)
+for (k = 0; k <= 10; k++)
 {
 	putchar(k + '0');
-	k++;
 }
 for (v = 'a'; v < 'g'; v++)
 {
