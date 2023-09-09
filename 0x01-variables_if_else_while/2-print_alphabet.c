@@ -10,10 +10,11 @@
 
 int main(void)
 {
-char u;
-for (u = 'a' ; u <= 'z' ; u++)
+char u = 'a';
+while (u <= 'z')
 {
 	putchar(u);
+	u++;
 }
 return (0);
 }
