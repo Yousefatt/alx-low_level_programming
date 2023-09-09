@@ -11,10 +11,9 @@
 int main(void)
 {
 int f;
-while (f < 10)
+for (f = 0 ; f < 10 ; f++)
 {
 	printf("%d", f);
-	f++;
 }
 return (0);
 }
