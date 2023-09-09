@@ -14,8 +14,8 @@ char u = 'a';
 char s = 'A';
 while (u <= 'z')
 {
-       putchar(u);
-       u++;
+	putchar(u);
+	u++;
 }
 while (s <= 'Z')
 {
