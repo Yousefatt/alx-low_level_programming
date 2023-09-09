@@ -10,8 +10,10 @@
 
 int main(void)
 {
-int f = 0;
-if (f <= 10)
+int f;
+for (f = 0 ; f <= 10 ; f++)
+{
 	printf("%d\n", f);
+}
 return (0);
 }
