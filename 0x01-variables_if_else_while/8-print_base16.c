@@ -12,7 +12,7 @@ int main(void)
 {
 int k;
 char v;
-for (k = 0; k <= 10; k++)
+for (k = 0; k < 10; k++)
 {
 	putchar(k + '0');
 }
