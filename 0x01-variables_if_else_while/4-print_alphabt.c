@@ -10,17 +10,14 @@
 
 int main(void)
 {
-char u = 'a';
-char s = 'A';
-while (u <= 'z')
+char e = 'a';
+while (e <= 'z')
 {
-	putchar(u);
-	u++;
-}
-while (s <= 'Z')
-{
-	putchar(s);
-	s++;
+	if (e != 'e' && e != 'q')
+	{
+	putchar(e);
+	}
+	e++;
 }
 putchar('\n');
 return (0);
