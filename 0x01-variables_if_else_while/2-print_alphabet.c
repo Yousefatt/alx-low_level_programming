@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  *main-Entry point
  *
  *Description: print value of n satus; positive, negative or zero
@@ -11,7 +11,7 @@
 int main(void)
 {
 char u;
-for (u = 'a' ; 'a' <= 'z' ; u++)
+for (u = 'a' ; u <= 'z' ; u++)
 {
 	putchar(u);
 }
