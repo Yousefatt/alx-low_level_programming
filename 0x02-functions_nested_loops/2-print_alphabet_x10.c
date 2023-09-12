@@ -9,12 +9,12 @@ void print_alphabet_x10(void)
 {
 int charac;
 int repeat = 0;
-while (repeat <= 10)
+while (repeat < 10)
 {
 for (charac = 'a'; charac <= 'z'; charac++)
 {
-        putchar(charac);
+	putchar(charac);
 }
-        putchar('\n');
+	putchar('\n');
 }
 }
