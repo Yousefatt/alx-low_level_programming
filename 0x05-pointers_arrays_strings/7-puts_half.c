@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  *puts_half - print sec half of string
  *@str: char arra string
  *Descrition: id odd numb of char,print (Lenth - 1) / 2
