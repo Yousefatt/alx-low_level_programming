@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * print_numbers - print 1:9
+ * print_numbers - print 1 - 9
  *		only use _putchar twice
- * Return: Always 0 (sussecc)
+ *
+ * Return: Always 0 (Success)
  */
 
 void print_numbers(void)
