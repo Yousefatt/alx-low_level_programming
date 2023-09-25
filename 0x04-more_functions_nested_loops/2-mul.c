@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * multi - multiplies two int
+ * mul - multiplies two int
  *
  * @a: frist input
  * @b: sec input
