@@ -3,10 +3,10 @@
 /**
  * multi - multiplies two int
  *
- * @a: frist int
- * @b: sec int
+ * @a: frist input
+ * @b: sec input
  *
- * Return: return result of this opp
+ * Return: return result
  */
 
 int mul(int a, int b)
