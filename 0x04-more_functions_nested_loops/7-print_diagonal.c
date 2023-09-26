@@ -9,15 +9,15 @@
 
 void print_diagonal(int n)
 {
-	int post, spac;
+	int postn, space;
 
 	if (n <= 0)
 		_putchar('\n');
 	else
 	{
-		for (post = 1; post <= n; ++post)
+		for (postn = 1; postn <= n; ++postn)
 		{
-			for (spac = 1; spac <= post; ++spac)
+			for (space = 1; space <= postn; ++space)
 				_putchar(' ');
 			_putchar(92); /*is equal to '/' char*/
 			_putchar('\n');
