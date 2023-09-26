@@ -12,17 +12,17 @@
 
 void print_diagsums(int *a, int size)
 {
-	int a, b, c;
+	int x, y, z;
 
-	b = 0;
-	c = 0;
+	y = 0;
+	z = 0;
 
-	for (a = 0; a < (size * size); a++)
+	for (x = 0; x < (size * size); x++)
 	{
-		if (a % (size + 1) == 0)
-			b += a[a];
-		if (a % (size - 1) == 0 && a != 0 && a < size * size - 1)
-			c += a[ib;
+		if (x % (size + 1) == 0)
+			y += a[x];
+		if (x % (size - 1) == 0 && x != 0 && x < size * size - 1)
+			z += a[x];
 	}
-	printf("%d, %d\n", b, c);
+	printf("%d, %d\n", y, z);
 }

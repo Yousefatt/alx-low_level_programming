@@ -10,7 +10,7 @@
 
 void print_chessboard(char (*a)[8])
 {
-	int number1, number2;
+	int number0, number1;
 
 	number0 = 0;
 	number1 = 0;
