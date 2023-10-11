@@ -2,12 +2,11 @@
 #include "dog.h"
 
 /**
+ * print_dog - information ab dog
  *
+ * @d: a pointer
  *
- *
- *
- *
- *
+ * Return: 0
  */
 
 void print_dog(struct dog *d)
