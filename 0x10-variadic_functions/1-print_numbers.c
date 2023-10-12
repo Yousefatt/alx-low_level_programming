@@ -15,11 +15,11 @@
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	unsigned int x;
 	va_list argu;
+	unsigned int x;
 
 	va_start(argu, n);
-	if (separator)
+	if (separator == NULL)
 		separator = "";
 	for (x = 0; x < n; x++)
 	{
