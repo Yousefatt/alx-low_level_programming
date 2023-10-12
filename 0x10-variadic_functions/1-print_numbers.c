@@ -18,10 +18,9 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	unsigned int x;
 	va_list argu;
 
+	va_start(argu, n)
 	if (separator)
 		separator = "";
-	va_start(argu, n);
-
 	for (x = 0; x < n; x++)
 	{
 		if (x == (n - 1))
